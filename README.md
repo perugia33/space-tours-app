@@ -11,4 +11,4 @@
 galaxies, bios and images of crew members and space crafts used
 * Collects passenger data via user input 
 * Stores and retrieves passenger data from the Mongo DB using an Express server 
-* It has an accompanying design system that can be found at
+* It has an accompanying design system that can be found at https://github.com/perugia33/Design_System
