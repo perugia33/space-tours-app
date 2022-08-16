@@ -1,0 +1,61 @@
+/*CSS VARIABLES */
+/*--------  */
+
+:root{
+    --color-primary-blue:rgb(32, 53, 160);
+    --color-primary-violet:rgb(75, 0, 130);
+    --color-primary-green:rgb(76, 175, 80);
+    --color-dark:rgb(11, 13, 23);
+    --color-primary-azure:rgb(160, 174, 249);
+    --color-white:rgb(245, 245, 245);
+     --color-light-blue:rgb(129, 149, 245);
+    
+    
+        /* font-sizes */
+        --font-900:   100px;
+        --font-800:   75px;
+        --font-700:   50px;
+        --font-600:   40px;
+        --font-500:   32px;
+        --font-400:   28px;
+        --font-300:   22px;
+        --font-200:   16px;
+    
+        /* font-families */
+    
+        --bellefair: "Bellefair ";
+        --barlow:  "Barlow";
+        --barlow-condensed: "Barlow Condensed "
+    
+    
+    }
+    
+    /* --------- */
+    /*END CSS VARIABLES */
+    /*--------  */
+
+body{
+    background-color: var(--color-dark);
+    /* background-position: center  right; */
+
+}
+.reg-container{
+    margin-left: 7rem;
+    margin-top: 1rem;
+
+    padding:  5rem 3rem  3rem  5rem;
+    width: 85vw;
+    background-image: url("../images/background-space-1.jpeg");
+}
+
+/* UTILITY CLASSES */
+
+/* FONTS */
+.fs-900 { font-size: var(--font-900); }
+.fs-800 { font-size: var(--font-800); }
+.fs-700 { font-size: var(--font-700); }
+.fs-600 { font-size: var(--font-600); }
+.fs-500 { font-size: var(--font-500); }
+.fs-400 { font-size: var(--font-400); }
+.fs-300 { font-size: var(--font-300); }
+.fs-200 { font-size: var(--font-200); }
