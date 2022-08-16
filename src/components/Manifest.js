@@ -42,16 +42,16 @@ import "bootstrap/dist/css/bootstrap.css";
     
         
         // This method will map out the records on the table
-        function passengerList (){
-          return passengers.map((passenger) => {
-            return (
-                <Manifest
-                passenger={passenger}
-                key= {passenger._id}             
-            />
-            );
-          });
-        }
+        // function passengerList (){
+        //   return passengers.map((passenger) => {
+        //     return (
+        //         <Manifest
+        //         passenger={passenger}
+        //         key= {passenger._id}             
+        //     />
+        //     );
+        //   });
+        // }
 
 
       

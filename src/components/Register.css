@@ -38,6 +38,7 @@ body{
     background-color: var(--color-dark);
     /* background-position: center  right; */
 
+
 }
 .reg-container{
     margin-left: 7rem;
@@ -46,6 +47,7 @@ body{
     padding:  5rem 3rem  3rem  5rem;
     width: 85vw;
     background-image: url("../images/background-space-1.jpeg");
+    background-repeat: no-repeat;
 }
 
 /* UTILITY CLASSES */
