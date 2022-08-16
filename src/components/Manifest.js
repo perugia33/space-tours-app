@@ -16,44 +16,46 @@ import "bootstrap/dist/css/bootstrap.css";
             <td>{props.user.passengers}</td>
         </tr>
     );
-
-
-    export default  function Manifest() {
-        // Get path  to retrieve records from db
-        const [passengers, setPassengers] = useState ([]);
-
-        useEffect( ( ) =>{
-            async function getUsers( ) {
-                const  response = await fetch("http://localhost:5000/user/");
-
-                if(!response.ok) {
-                    const message =  `An error occured: ${response.statusText}`;
-                    window.alert(message);
-                    return;
-                }
-                const passengers  = await response.json();
-                    setPassengers(passengers)
+    export default function Manifest() {
+        const [passengers, setPassengers] = useState([]);
+        
+        // This method fetches the records from the database.
+        useEffect(() => {
+          async function getUsers() {
+            const response = await fetch(`http://localhost:5000/user/`);
+        
+            if (!response.ok) {
+              const message = `An error occurred: ${response.statusText}`;
+              window.alert(message);
+              return;
             }
-
-            getUsers();
-
-            return;
-
-        }, [passengers.length]
-     );
-
-    //  Map data to table
-
-    function passengerList (){
-        return passengers.map((passenger) => {
+        
+            const passengers  = await response.json();
+            setPassengers(passengers)
+          }
+        
+          getUsers();
+        
+          return;
+        }, [passengers.length]);
+        
+    
+        
+        // This method will map out the records on the table
+        function passengerList (){
+          return passengers.map((passenger) => {
             return (
                 <Manifest
-                    passenger={passenger}
-                    key= {passenger._id}             
-                />
+                passenger={passenger}
+                key= {passenger._id}             
+            />
             );
-        });
-}
+          });
+        }
+
+
+      
+
     return(
         <div>
             <h3>Passenger Manifest</h3>
@@ -68,9 +70,10 @@ import "bootstrap/dist/css/bootstrap.css";
                 <tbody>{passengerList ()}</tbody>
             </table>
         </div>
-    );
+);
+};
+
+    
 
 
-
-
-    }
+    

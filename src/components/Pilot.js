@@ -15,15 +15,11 @@ function Pilot() {
           {/* <h3> Meet Our -</h3> */}
             <h3 className= "heading4 ">Navigation Officer</h3>
             <h2 className= "heading3   mt-3 mb2"> Lt Commander Victor Glover</h2>
-            <p className = "sub-heading6">Commander Uhura is the senior most officer in our star fleet.  
-            She has operational authority over the entire star fleet
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, ducimus harum 
-            nemo eaque dolores rem vero voluptatem magni doloribus aut illum 
-            earum, atque unde eum totam, tempore dolorem voluptate? Mollitia i
-            ncidunt, laudantium nesciunt eligendi minima soluta totam, 
-            ad praesentium aspernatur adipisci dolor ipsam a in eveniet. 
-            Architecto quis eligendi debitis quos totam voluptate numquam 
-            doloribus eius, fugit illo cum?
+            <p className = "sub-heading6">Lt Commander Glover completed advance training 
+            at the Starfleet Academy, receiving a  Master of Science in Flight Test 
+            Engineering, a Master of Science in Systems Engineering and a 
+            Master of Military Operational Art and Science. He has served as 
+            test pilot on several of Starfleet's most advance starships like the Intrepid.
             </p>
 
         <div class="dot-indicators flex">

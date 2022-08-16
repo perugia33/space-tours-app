@@ -19,15 +19,12 @@ function Captain() {
                     {/* <h3> Meet Our -</h3> */}
                       <h3 className= "heading4 mb2">Ship's Captain</h3>
                       <h2 className= "heading3   mt-3 mb2">Captain Jeanette Epps</h2>
-                      <p className = "sub-heading6">Commander Uhura is the senior most officer in our star fleet.  
-                      She has operational authority over the entire star fleet
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, ducimus harum 
-                      nemo eaque dolores rem vero voluptatem magni doloribus aut illum 
-                      earum, atque unde eum totam, tempore dolorem voluptate? Mollitia i
-                      ncidunt, laudantium nesciunt eligendi minima soluta totam, 
-                      ad praesentium aspernatur adipisci dolor ipsam a in eveniet. 
-                      Architecto quis eligendi debitis quos totam voluptate numquam 
-                      doloribus eius, fugit illo cum?
+                      <p className = "sub-heading6">Jeannette Epps is a former Starfleet commander and one of 
+                      its most decorated officers. She trained at the Starfleet Academy 
+                      and received both her M.S. and PH.D in aerospace engineering . 
+                      As a Starfleet cadet she was instrumental in the completion of 
+                      several critical missions and later was commissioned to the rank 
+                      of Captain.  
                       </p>
 
                   <div class="dot-indicators flex">
